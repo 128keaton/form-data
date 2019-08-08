@@ -7,7 +7,7 @@
 import * as stream from 'stream';
 import * as http from 'http';
 
-export = FormData;
+export default FormData;
 
 declare class FormData extends stream.Readable {
   append(key: string, value: any, options?: FormData.AppendOptions | string): void;
